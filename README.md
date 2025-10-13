@@ -1,4 +1,4 @@
-# 🎨 ColorPlay - knowing git
+# 🎨 ColorPlay 
 
 A beautiful showcase of 60 unique bubble components built with React and Tailwind CSS for the **KnowGit 4.0** event! This project features rounded divs with color fills and playful hover animations, perfect for creating a "Color Burst" effect. It serves as a playground for learning React component development and Git collaboration.
 
