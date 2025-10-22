@@ -1,68 +1,34 @@
-name: "Pull Request Template"
-description: "Standard PR template for server, admin-client, and student-client"
-title: "[PR] <Short Description>"
-body:
-  - type: markdown
-    attributes:
-      value: |
-        ## 📝 Description
-        Please provide a clear and concise description of the changes and the related issue.
+## 📝 Description
+Provide a clear and concise description of your changes and the related issue.
 
-  - type: input
-    id: issue
-    attributes:
-      label: "🔗 Issue ID"
-      description: "Enter the related issue number (e.g., #123)."
-      placeholder: "#ISSUE_ID"
-    validations:
-      required: true
+*Issue ID:* #ISSUE_ID
 
-  - type: checkboxes
-    id: scope
-    attributes:
-      label: "📂 Scope of Changes"
-      description: "Select the part(s) of the project affected by this PR."
-      options:
-        - label: "Server (`server/`)"
-        - label: "Admin Client (`admin-client/`)"
-        - label: "Student Client (`student-client/`)"
+---
 
-  - type: checkboxes
-    id: changes
-    attributes:
-      label: "🔍 Changes Made"
-      description: "Select all that apply."
-      options:
-        - label: "Updated dependencies"
-        - label: "Added/modified scripts"
-        - label: "UI changes"
-        - label: "API changes"
-        - label: "Database changes"
-        - label: "Other (please specify in notes)"
+### 🔍 Changes Made
+- [ ] Updated dependencies  
+- [ ] Added/modified scripts  
+- [ ] UI changes  
+- [ ] API changes  
+- [ ] Database changes  
+- [ ] Other (specify below)
 
-  - type: textarea
-    id: images
-    attributes:
-      label: "🖼️ Images / UI Updates"
-      description: "Attach before/after screenshots or describe any UI changes. If no images changed, write N/A."
-      placeholder: "Add screenshots or write N/A"
+---
 
-  - type: checkboxes
-    id: checklist
-    attributes:
-      label: "✅ Checklist"
-      description: "Ensure all tasks are completed before requesting review."
-      options:
-        - label: "My code follows the project's coding standards"
-        - label: "I have linked the correct issue ID"
-        - label: "I have added necessary documentation (if applicable)"
-        - label: "I have tested my changes locally"
-        - label: "I have updated/added relevant tests"
-        - label: "No new warnings/errors introduced"
+### 🖼 Screenshots / UI Updates
+Attach before/after screenshots or write N/A.
 
-  - type: textarea
-    id: notes
-    attributes:
-      label: "🚀 Additional Notes"
-      description: "Anything else reviewers should know about this PR."
-      placeholder: "Extra context or details"
+---
+
+### ✅ Checklist
+- [ ] My code follows the project's coding standards  
+- [ ] Linked the correct issue ID  
+- [ ] Added necessary documentation (if applicable)  
+- [ ] Tested changes locally  
+- [ ] Updated/added relevant tests  
+- [ ] No new warnings/errors introduced  
+
+---
+
+### 🚀 Additional Notes
+Add any extra context, details, or reviewer notes here.
