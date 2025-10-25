@@ -10,7 +10,7 @@ const Bubble02 = ({ title = "button - 2" }) => {
       
       {/* Main bubble */}
       <div className="relative z-10 bg-gradient-to-br from-blue-400 to-blue-600 w-24 h-24 rounded-full shadow-xl hover:shadow-2xl transition-all duration-500 ease-out hover:scale-110 flex items-center justify-center group-hover:animate-pulse">
-        <span className="text-white text-xs font-bold text-center px-2 drop-shadow-lg">{title}</span>
+        <span className="text-white text-xs font-thin text-center px-2 drop-shadow-lg">{title}</span>
         
         {/* Inner sparkle effect */}
         <div className="absolute inset-2 rounded-full bg-gradient-to-t from-transparent to-white opacity-0 group-hover:opacity-30 transition-opacity duration-500"></div>
