@@ -9,7 +9,7 @@ const Bubble22 = ({ title = "button - 22" }) => {
       <div className="absolute inset-0 w-24 h-24 rounded-full bg-gradient-to-r from-yellow-200 to-amber-200 opacity-0 group-hover:opacity-30 scale-100 group-hover:scale-[2] transition-all duration-600 ease-out blur-sm delay-200"></div>
       
       {/* Main bubble */}
-      <div className="relative z-10 bg-gradient-to-br from-yellow-500 to-yellow-700 w-24 h-24 rounded-full shadow-xl hover:shadow-2xl transition-all duration-500 ease-out hover:scale-110 flex items-center justify-center group-hover:animate-pulse">
+      <div className="relative z-10 bg-gradient-to-br from-orange-500 to-orange-700 w-24 h-24 rounded-full shadow-xl hover:shadow-2xl transition-all duration-500 ease-out hover:scale-110 flex items-center justify-center group-hover:animate-pulse">
         <span className="text-white text-xs font-bold text-center px-2 drop-shadow-lg">{title}</span>
         
         {/* Inner sparkle effect */}
