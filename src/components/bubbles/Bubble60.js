@@ -8,8 +8,11 @@ const Bubble60 = ({ title = "button - 60" }) => {
       <div className="absolute inset-0 w-24 h-24 rounded-full bg-gradient-to-r from-fuchsia-600 to-purple-600 opacity-0 group-hover:opacity-40 scale-100 group-hover:scale-[3] transition-all duration-800 ease-out blur-sm delay-100"></div>
       <div className="absolute inset-0 w-24 h-24 rounded-full bg-gradient-to-r from-fuchsia-500 to-purple-500 opacity-0 group-hover:opacity-30 scale-100 group-hover:scale-[2] transition-all duration-600 ease-out blur-sm delay-200"></div>
       
-      {/* Main bubble */}
-      <div className="relative z-10 bg-gradient-to-br from-fuchsia-700 to-fuchsia-900 w-24 h-24 rounded-full shadow-xl hover:shadow-2xl transition-all duration-500 ease-out hover:scale-110 flex items-center justify-center group-hover:animate-pulse">
+      {/* Main bubble with deep shadow */}
+      <div className="relative z-10 bg-gradient-to-br from-fuchsia-700 to-fuchsia-900 w-24 h-24 rounded-full 
+        shadow-[0_10px_25px_rgba(0,0,0,0.6)] 
+        group-hover:shadow-[0_15px_35px_rgba(0,0,0,0.8)] 
+        transition-all duration-500 ease-out hover:scale-110 flex items-center justify-center">
         <span className="text-white text-xs font-bold text-center px-2 drop-shadow-lg">{title}</span>
         
         {/* Inner sparkle effect */}
